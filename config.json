@@ -1,0 +1,21 @@
+{
+  "channels": {
+    "Timothy Ronald": {
+      "channel_id": "UCXMB8OiiSnq2B4xLgUtTYhw",
+      "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXMB8OiiSnq2B4xLgUtTYhw"
+    },
+    "Akademi Crypto": {
+      "channel_id": "UCe9_rJjMmQS5C_LobUZ_pHg",
+      "rss_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCe9_rJjMmQS5C_LobUZ_pHg"
+    }
+  },
+  "google": {
+    "email": "foralllllll13@gmail.com",
+    "password": "ForAllOfUs13."
+  },
+  "openai_api_key": "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",
+  "download_path": "./downloads",
+  "output_path": "./output",
+  "clip_duration": 60,
+  "max_clips_per_video": 5
+}
