@@ -24,7 +24,12 @@ class VideoProcessor:
             video.close()
             
             # Transcribe audio with timestamps
-            result = self.whisper_model.transcribe(audio_path, word_timestamps=True)
+            result = self.whisper_model.transcribe(
+                audio_path,
+                word_timestamps=True,
+                verbose=False,
+                fp16=False  # Force FP32 to avoid warnings
+            )
             
             # Clean up audio file
             os.remove(audio_path)
