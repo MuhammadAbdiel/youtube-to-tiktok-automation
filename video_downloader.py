@@ -5,8 +5,11 @@ from datetime import datetime
 import feedparser
 from pytube import YouTube
 from moviepy.editor import VideoFileClip, AudioFileClip
+from moviepy.config import change_settings
 import yt_dlp
 import subprocess
+
+change_settings({"IMAGEMAGICK_BINARY": r"D:\\program files\\ImageMagick-7.1.1-Q16-HDRI\\magick.exe"})
 
 logger = logging.getLogger(__name__)
 

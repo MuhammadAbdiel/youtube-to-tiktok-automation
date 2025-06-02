@@ -3,11 +3,14 @@ import time
 import logging
 import schedule
 from moviepy.editor import VideoFileClip
+from moviepy.config import change_settings
 
 from config import Config
 from video_downloader import VideoDownloader
 from video_processor import VideoProcessor
 from tiktok_uploader import TikTokUploader
+
+change_settings({"IMAGEMAGICK_BINARY": r"D:\\program files\\ImageMagick-7.1.1-Q16-HDRI\\magick.exe"})
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
